@@ -35,5 +35,8 @@ public abstract class Personaje {
         contrario.recibirAtaque(this.ataque);  // pasar el valor de ataque 
         
     }
+    public int getVida() {
+        return vida;
+    }
     public abstract void usarEstrategia();
 }
